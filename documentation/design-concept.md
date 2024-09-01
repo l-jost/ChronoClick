@@ -1,5 +1,18 @@
 # Design Concept
 
+## Table of Contents
+- [Concept](#concept)
+- [Button](#button)
+- [Block Diagram](#block-diagram)
+- [Feasibility](#feasibility)
+    - [Power](#power)
+        - [Battery](#battery)
+        - [Microcontroller](#microcontroller)
+        - [Display](#display)
+        - [Power Conversion](#power-conversion)
+        - [Typical Operation](#typical-operation)
+        - [Runtime Estimation](#runtime-estimation)
+
 ## Concept
 ![Concept](images/concept.svg)
 
