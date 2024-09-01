@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="NzlEj1OmtxCCbz5Uc5PC">
+    <mxGraphModel dx="1430" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hyAhZStlIGeoI1apW44Q-51" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="690" y="275" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-38" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="hyAhZStlIGeoI1apW44Q-51">
+          <mxGeometry width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-39" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="hyAhZStlIGeoI1apW44Q-51">
+          <mxGeometry x="10" y="10" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-40" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF5757;" vertex="1" parent="hyAhZStlIGeoI1apW44Q-51">
+          <mxGeometry x="20" y="20" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-41" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1130/1130954.png;" vertex="1" parent="hyAhZStlIGeoI1apW44Q-51">
+          <mxGeometry x="75" y="110" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-48" value="Feed Me!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontFamily=Verdana;" vertex="1" parent="hyAhZStlIGeoI1apW44Q-51">
+          <mxGeometry x="50" y="75" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-31" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="210" y="275" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-32" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="285" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-33" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="295" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-36" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.6056311964277042;endAngle=0.4051119595953627;strokeWidth=9;strokeColor=#6666FF;perimeterSpacing=0;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="302.5" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-34" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1130/1130954.png;" vertex="1" parent="1">
+          <mxGeometry x="285" y="385" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-35" value="7h 55min" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="450" y="275" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="285" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="295" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1130/1130954.png;" vertex="1" parent="1">
+          <mxGeometry x="525" y="385" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-16" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.6056311964277042;endAngle=0.1;strokeWidth=9;strokeColor=#6666FF;perimeterSpacing=0;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="302.5" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="hyAhZStlIGeoI1apW44Q-47" value="4h 30min" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
