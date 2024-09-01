@@ -22,8 +22,6 @@ We should not use a haptic motor because we are very much power limited!
 ### Power
 The device needs to operate at least 1 year on a CR2032 battery. For that reason everything needs to be extremely power efficient.
 
-For the highest efficiency, everything should be operating at 1.8V if possible.
-
 #### Battery
 A typical CR2032 battery has a capacity of **225mAh** and a nominal voltage range of 2V-3.3V with a nominal voltage of **~2.9V**.
 ![Discharge Curve](images/discharge-curve.png)
