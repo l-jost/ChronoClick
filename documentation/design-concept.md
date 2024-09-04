@@ -25,7 +25,7 @@
 | **Power Consumption** | Low power consumption | Higher power consumption due to sensor and motor |
 | **Complexity** | Simple circuitry, but very difficult mechanical design to guide housing and making it feel good | More complex circuitry, quite easy mechanical design |
 
-We should not use a haptic motor because we are very much power limited! 
+We should not use a haptic motor because we are very much power and energy limited! 
 
 ## Block Diagram
 ![Block Diagram](images/block-diagram.svg)
