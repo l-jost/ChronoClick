@@ -10,7 +10,6 @@ jobs:
       steps:
         - uses: codespell-project/actions-codespell@v2
 
-    
     editorconfig:
       runs-on: ubuntu-latest
       steps:
