@@ -1,7 +1,7 @@
 name: Merge Criteria
 
 on:
-  pull_request
+  push:
 
 jobs:
     spell-check:
