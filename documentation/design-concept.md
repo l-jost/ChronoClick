@@ -82,4 +82,4 @@ The average power consumption is estimated to be **55 uW**, which translates to 
 
 Allowing the device to run... **1.2 years!**
 
-The calculation is heavily leaned on a power consumption estimate of the display, since the datasheet does not give enough information to do precise calculations. In addition, quiescent currents for the NFC IC are estimated to be zero because it will be powered by the phone. Quiescent currents for pull-ups and voltage divider needs to be kept bellow 3uA to reach the 1 year runtime goal. But with that being said, it should be possible to run the device for a year on a single CR2032 coin cell.
+The calculation is heavily leaned on a power consumption estimate of the display, since the datasheet does not give enough information to do precise calculations. In addition, quiescent currents for the NFC IC are estimated to be zero because it will be powered by the phone. Quiescent currents for pull-ups and voltage divider needs to be kept below 3uA to reach the 1 year runtime goal. But with that being said, it should be possible to run the device for a year on a single CR2032 coin cell.
