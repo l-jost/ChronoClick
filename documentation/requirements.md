@@ -18,7 +18,7 @@ Initial draft for the device requirements. This is subject to change!
 |REQ-01-10|Configuration|App Configuration|The device shall be configurable using a mobile application compatible with both Android.|"Do You Guys Not Have Phones?"|
 |REQ-01-11|Configuration|Custom timer intervals|The device shall allow users to set custom time intervals for counting down.|Users need to set different timers for various tasks.|
 |REQ-01-12|Configuration|Up / Down configuration|The device shall allow users to select counting modes (count up, count down, or automatic transition) via the mobile app.|Allows user control over timer functionalities.|
-|REQ-01-13|Configuration|Persistance|The device shall retain all user configurations and settings in non-volatile memory, ensuring persistence even when the battery is replaced or fully depleted.|Prevents the need for reconfiguration after battery changes, enhancing user convenience.|
+|REQ-01-13|Configuration|Persistence|The device shall retain all user configurations and settings in non-volatile memory, ensuring persistence even when the battery is replaced or fully depleted.|Prevents the need for reconfiguration after battery changes, enhancing user convenience.|
 
 
 ## Non-function Requirements
