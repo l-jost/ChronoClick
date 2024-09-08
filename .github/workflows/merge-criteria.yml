@@ -24,43 +24,12 @@ jobs:
         - name: Checkout code
           uses: actions/checkout@v4
           with:
-            fetch-depth: 2
+            fetch-depth: ''
 
-        - name: Find modified .SchDoc and .pdf files
-          id: find_changes
-          run: |
-            SCHDOC_FILES=$(git diff --name-only HEAD^ HEAD -- '*.SchDoc')
-            PDF_FILES=$(git diff --name-only HEAD^ HEAD -- '*.pdf')
+        - name: Install Python
+          uses: actions/setup-python@v4
+          with:
+            python-version: '3.x'
 
-            if [ -n "$SCHDOC_FILES" ]; then
-              echo "name=schdoc_files::$SCHDOC_FILES" >> $GITHUB_OUTPUT
-            fi
-
-            if [ -n "$PDF_FILES" ]; then
-              echo "name=pdf_files::$PDF_FILES" >> $GITHUB_OUTPUT
-            fi
-
-        - name: Verify .pdf files are updated after .SchDoc files
-          if: steps.find_changes.outputs.schdoc_files || steps.find_changes.outputs.pdf_files
-          run: |
-            for schdoc in $SCHDOC_FILES; do
-              echo "Checking $schdoc"
-              FOLDER=$(dirname "$SchDoc")
-
-              PDF_FILE=$(find "$FOLDER" -maxdepth 1 -name '*.pdf')
-
-              if [ -z "$PDF_FILE" ]; then
-                echo "Error: No .pdf file found in the folder for $SchDoc"
-                exit 1
-              fi
-
-              SCHDOC_MOD_TIME=$(git log -1 --format="%at" -- "$SchDoc")
-              PDF_MOD_TIME=$(git log -1 --format="%at" -- "$PDF_FILE")
-
-              if [ "$PDF_MOD_TIME" -lt "$SCHDOC_MOD_TIME" ]; then
-                echo "Error: $PDF_FILE has not been updated after $SchDoc"
-                exit 1
-              fi
-            done
-
-            echo "Success: All .pdf files are updated after their corresponding .SchDoc files."
+        - name: Run PDF update check
+          run: python ci/check_pdf_updates.py
